@@ -5,19 +5,19 @@ const port = 3000
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
-})
+}),
 
 app.get('/twitter' , (req, res) => {
     res.send('Adil khan')
-})
+}),
 
 app.get('/login' , (req, res)=> {
     res.send('<h1>Please Login</h1>')
-})
+}),
 
 app.get('/Adil' , (req , res) => {
     res.send('<h2> My Application </h2>')
-})
+}),
 
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
